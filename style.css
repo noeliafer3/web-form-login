@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "helvetica", sans-serif;
+  background-color: #008e9b;
+  background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0545aac2-256b-4c9e-907a-1b1c8ef246de/dgc6fom-25f6e2f0-3261-4b8b-9b7e-c6c542c3a4b0.png/v1/fill/w_1280,h_718,q_80,strp/fantasy_desktop_wallpaper_0474_by_grimwalds_ai_fantasy_dgc6fom-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzE4IiwicGF0aCI6IlwvZlwvMDU0NWFhYzItMjU2Yi00YzllLTkwN2EtMWIxYzhlZjI0NmRlXC9kZ2M2Zm9tLTI1ZjZlMmYwLTMyNjEtNGI4Yi05YjdlLWM2YzU0MmMzYTRiMC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.aJqBLtrv40lnuHVvfwndsLomEfUffUjq6Pi0lRUGwBg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 590px;
+  margin: 0 auto;
+  padding: 50px;
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.formulario-container {
+  display: flex;
+  flex-direction: column;
+  width: 590px;
+  margin: 0 auto;
+  padding: 50px;
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: #b38bff;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 12px;
+  font-size: 16px;
+  color: #555;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.5);
+}
+
+button {
+  padding: 10px;
+  background-color: #ff9671;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #fcf7ff;
+  color: #845ec2;
+}
+
+a {
+  text-decoration: none;
+  color: #ff9671;
+  font-size: 18px;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #fcf7ff;
+}
+
+p {
+  text-align: center;
+  margin: 8px;
+}
