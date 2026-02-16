@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="form-container" id="login">
+    <h2>Login</h2>
+    <form>
+      <label for="username">Username</label>
+      <input id="username" type="text" name="username" tabindex="1" required>
+      <label for="password">Password</label>
+      <input id="password" type="password" name="password" tabindex="2" required>
+      <button type="submit" tabindex="3">Login</button>
+    </form>
+    <p>Don't have an account? <a href="#" id="signup-link">Sign up</a></p>
+    <p><a href="#" id="loginSp">Login Spanish </a></p>
+  </div>
+
+  <div class="form-container" id="signup" style="display: none;">
+    <h2>Sign Up</h2>
+    <form>
+      <label for="new-username">Username</label>
+      <input id="new-username" type="text" name="new-username" tabindex="1" required>
+      <label for="new-email">Email</label>
+      <input id="new-email" type="email" name="new-email" tabindex="2" required>
+      <label for="new-password">Password</label>
+      <input id="new-password" type="password" name="new-password" tabindex="3" required>
+      <button type="submit" tabindex="4">Sign Up</button>
+    </form>
+    <p>Already have an account? <a href="#" id="login-link">Login</a></p>
+    <p><a href="#" id="signupSp">Sign Up Spanish</a></p>
+  </div>
+
+  <!-- FORMULARIO ESPAÑOL -->
+
+  <div class="formulario-container" id="iniciosesion" style="display: none;">
+    <h2>Iniciar sesión</h2>
+    <form>
+      <label for="usuario">Usuario</label>
+      <input id="usuario" type="text" name="usuario" tabindex="1" required>
+      <label for="password">Contraseña</label>
+      <input id="password" type="password" name="password" tabindex="2" required>
+      <button type="submit" tabindex="3">Iniciar sesión</button>
+    </form>
+    <p>¿No tienes una cuenta? <a href="#" id="registro-link">Regístrate</a></p>
+    <p><a href="#" id="eng-login">Login English</a></p>
+  </div>
+
+  <div class="formulario-container" id="registro" style="display: none;">
+    <h2>Regístrate</h2>
+    <form>
+      <label for="new-usuario">Usuario</label>
+      <input id="new-usuario" type="text" name="new-usuario" tabindex="1" required>
+      <label for="new-email">Email</label>
+      <input id="new-email" type="email" name="new-email" tabindex="2" required>
+      <label for="new-password">Contraseña</label>
+      <input id="new-password" type="password" name="new-password" tabindex="3" required>
+      <button type="submit" tabindex="4">Regístrate</button>
+    </form>
+    <p>¿Ya tienes cuenta?<a href="#" id="inicio-link">Inicia sesión</a></p>
+    <p><a href="#" id="eng-signup">Sing Up English</a></p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
